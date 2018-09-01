@@ -109,7 +109,10 @@ blockquote { padding: 30px; margin: 0 0 30px; font-size: 18px; border: 2px solid
 strong { color: #2e3139; font-weight: 700; }
 hr { border-top: 1px solid #eee; margin-bottom: 40px; margin-top: 40px; }
 .list-none { list-style: none; padding: 0; }
-.search-icon { line-height: 2.6; }
+.search-icon { line-height: 2.6; float:right; margin: 0 2% 0 0;}
+.login-icon{ line-height: 2.6; float:right;}
+.mami{width: 100%; }
+
 
 /*-----------------------
    2 Form Elements:
@@ -429,7 +432,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .top-social a { font-size: 14px; color: #36333c; }
 .top-social a:hover { color: #5314a8; }
 .header-wrapper { background-color: #fff; border-bottom: 1px solid #eee; z-index: 9; position: relative; }
-.header { padding-top: 25px; padding-bottom: 20px; }
+.header { padding-top: 25px; padding-bottom: 20px; background-color: #ff9000; }
 .logo { }
 .top-header-icon { font-size: 14px; background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF); background: radial-gradient(circle at 33% 100%, #3d0f82 4%, #8900a9 30%, #8c39bb 62%, #3a0c80 85%, #a583bd); -webkit-background-clip: text; -webkit-text-fill-color: transparent; padding-right: 8px; }
 .search { font-size: 14px; background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF); background: radial-gradient(circle at 33% 100%, #3d0f82 4%, #8900a9 30%, #8c39bb 62%, #3a0c80 85%, #a583bd); -webkit-background-clip: text; -webkit-text-fill-color: transparent; padding-top: 10px; }
